@@ -1,0 +1,116 @@
+@media screen and (min-width: 250px) {
+  .class {
+    width: 200px;
+    height: 218px;
+    margin-left: 0;
+  }
+
+  .mainbox {
+    width: calc((200px) * 1);
+  }
+
+  .class:nth-of-type(-n + 4) {
+    margin-top: 50px;
+  }
+  .class:first-of-type {
+    margin-top: 0;
+  }
+
+  .mainbox {
+    padding: 60px;
+  }
+
+  .wee {
+    margin-bottom: 45px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .mainbox {
+    width: calc((200px + 28px) * 2);
+  }
+  /*  */
+  .class:nth-of-type(even) {
+    margin-left: 50px;
+  }
+
+  .class:nth-of-type(-n + 4) {
+    margin-top: 50px;
+  }
+
+  .class:nth-of-type(-n + 2) {
+    margin-top: 0px;
+  }
+
+  .mainbox {
+    padding: 40px;
+  }
+
+  .wee {
+    margin-bottom: 45px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .class {
+    width: 230px;
+    height: 240px;
+    margin-left: 50px;
+  }
+
+  .mainbox {
+    width: calc((230px + 37.1px) * 3);
+  }
+
+  .class:nth-of-type(-n + 3) {
+    margin-top: 0px;
+    margin-left: 50px;
+  }
+
+  .class:nth-of-type(3n + 1) {
+    margin-left: 0px;
+  }
+
+  .mainbox {
+    padding: 40px;
+  }
+
+  .wee {
+    margin-bottom: 45px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .class {
+    width: 230px;
+    height: 240px;
+  }
+
+  .mainbox {
+    width: calc((230px + 41.8px) * 4);
+  }
+
+  .class:nth-of-type(3n + 1) {
+    margin-left: 50px;
+  }
+
+  .class:nth-of-type(-n + 4) {
+    margin-top: 0px;
+  }
+
+  .class:nth-of-type(4n) {
+    margin-left: 50px;
+  }
+
+  .class:nth-of-type(4n + 1) {
+    margin-left: 0px;
+  }
+
+  .mainbox {
+    padding: 40px;
+  }
+
+  .wee {
+    margin-bottom: 45px;
+  }
+}
